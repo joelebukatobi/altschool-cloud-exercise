@@ -2,47 +2,82 @@
 
 **Task:** Research online for 10 more linux commands aside the ones already mentioned in this module. Submit using your altschool-cloud-exercises project, explaining what each command is used for with examples of how to use each and example screenshots of using each of them.
 
-...
+---
 
 > This command digs up information about a particular domain name.
 
 ```
  whois domain
-
 ```
 
-hostname -i | this command is used to display the network address of the host name
+![alt](/month-one/week-three/exercise-two/whois-command.png)
 
-> hostname -i
+> This command is used to display the network address of the host name
 
-df -h | this command is used to display the free and used space on mounted filesystem
+```
+hostname -i
+```
 
+![alt](/month-one/week-three/exercise-two/hostname%20-i-command.png)
+
+> this command is used to display the free and used space on mounted filesystem
+
+```
 > df -h
+```
 
-head -n1 /etc/issue | this command is used to display the distribution and the version
+![alt](/month-one/week-three/exercise-two/df%20-h-command.png)
 
-> head -n1 /etc/issue
+> This command is used to display the distribution and the version
 
-whereis | this command is used to Find binary / source / manual for command
+```
+head -n1 /etc/issue
+```
 
-> whereis
+![alt](/month-one/week-three/exercise-two/head%20-n1-etc-issue-command.png)
 
-traceroute | this command is used to trace the network path taken to a device
+> This command is used to Find binary / source / manual for command
 
-> traceroute
+```
+whereis
+```
 
-lsusb | this command is used to display a list of USB devices plugged into your system
+![alt](/month-one/week-three/exercise-two/whereis-command.png)
 
+> This command is used to trace the network path taken to a device
+
+```
+traceroute
+```
+
+![alt](/month-one/week-three/exercise-two/traceroute-command.png)
+
+> This command is used to display a list of USB devices plugged into your system
+
+```
 > lsusb
+```
 
-gziz | this command is used compress a file using the .gz extension
+> This command is used compress a file using the .gz extension
 
-> hostname -I
+```
+hostname -I
+```
 
-ssh -p [port] user@host | this command is used to connect to host using a particular port:
+![alt](/month-one/week-three/exercise-two/hostname%20-I.png)
 
-> ssh -p [port] user@host
+> This command is used to connect to host using a particular port:
 
-ip addr show | this command is used to list IP addresses and network interfaces:
+```
+ ssh -p [port] user@host
+```
 
-> ip addr show
+![alt](/month-one/week-three/exercise-two/ssh%20.png)
+
+> This command is used to list IP addresses and network interfaces:
+
+```
+ip addr show
+```
+
+![alt](/month-one/week-three/exercise-two/ip-addr-command.png)
