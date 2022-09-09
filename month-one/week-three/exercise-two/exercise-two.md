@@ -4,9 +4,12 @@
 
 ---
 
-whois domain | this command digs up information about a particular domain name.
+```
+ # This command digs up information about a particular domain name.
 
-> whois domain
+ whois domain
+
+```
 
 hostname -i | this command is used to display the network address of the host name
 
