@@ -41,7 +41,7 @@ To find the Network ID, we will need to perform a binary and operation on the ho
 | Network ID (Binary)      | 11000001 | 00010000 | 00010100 | 0010000  |
 | Network ID (Decimal)     | 193      | 16       | 20       | 32       |
 
-So out Network ID is 193.16.20.32
+So our Network ID is `193.16.20.32`
 
 #### Find the number of hosts
 
@@ -61,4 +61,4 @@ Number of hosts = 2^<sup>3</sup> - 2
 
 We can now calculate the range of IP Addresses and the Broadcast. Bear in mind that the First & Last IP Address is reserved for the Network and Broadcast
 
-> **Given IP:** 193.16.20.35/29 <br> > **Network IP:** 193.16.20.32 <br> > **Number of Hosts:** 6 <br> > **Range of IP Addresses:** 193.16.20.33 - 193.16.20.38 <br> > **- min range of IP's** = 193.16.20.33 <br> > **- max range of IP's** = 193.16.20.38 <br> > **Broadcast IP: 193.16.20.39** -->
+> **Given IP:** 193.16.20.35/29 <br> > **Network IP:** 193.16.20.32 <br> **Number of Hosts:** 6 <br> **Range of IP Addresses:** 193.16.20.33 - 193.16.20.38 <br> **- min range of IP's** = 193.16.20.33 <br> **- max range of IP's** = 193.16.20.38 <br> **Broadcast IP: 193.16.20.39** -->
