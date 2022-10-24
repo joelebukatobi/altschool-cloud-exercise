@@ -1,7 +1,5 @@
 ## Month Two
 
----
-
 ### Week One / Exercise Six
 
 According to the Microsoft Official Docs, the Center for Internet Security (CIS) is a nonprofit entity whose mission is to 'identify, develop, validate, promote, and sustain best practice solutions for cyber-defense.' It draws on the expertise of cybersecurity and IT professionals from government, business, and academia from around the world, to develop standards and best practices, including CIS benchmarks, controls, and hardened images, they follow a consensus decision-making model.
