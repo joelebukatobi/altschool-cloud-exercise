@@ -26,9 +26,9 @@ echo date("F d, Y h:i:s A e", time());
 #### Submission Documents
 
 Screenshot of the rendered page
-![alt](/month-one/week-four/exercise-four/index-screenshot.png)
+![alt](/month-two/week-four/exercise-eight/index-screenshot.png)
 
 ---
 
 The output of `systemctl status apache2`
-![alt](/month-one/week-four/exercise-four/apache2-status.png)
+![alt](/month-two/week-four/exercise-eight/apache2-status.png)
