@@ -14,15 +14,11 @@ For exercise nine we were given the following IP Address with a Subnet Mask: **1
 - Range of IP Addresses
 - Broadcast IP from this Subnet
 
-<!-- ## [Subnet Verification Link](https://www.calculator.net/ip-subnet-calculator.html) click me! -->
-
-### Procedure
-
-IN order to find the above listed entities with the given IP Address 193.16.20.35 with a subnet mask 255.255.255.248 or /29. We would first of all need to do the following
+In order to find the above listed entities with the given IP Address 193.16.20.35 with a subnet mask 255.255.255.248 or /29. We would first of all need to do the following
 
 - Convert to Binary
 - Calculate the Subset Address
-- Find the number of Host
+- Find the number of Host"
 - Calculate the range of IP Addresses
 
 #### Step One: Convert to binary
@@ -42,8 +38,10 @@ To find the Network ID, we will need to perform a binary and operation on the ho
 | IP Address (Binary)      | 11000001 | 00010000 | 00010100 | 00100011 |
 | Subnet Mask Binary       | 11111111 | 11111111 | 11111111 | 11111000 |
 | ------------------------ | -------- | -------- | -------- | -------- |
-| Subnet Address (Binary)  | 11000001 | 00010000 | 00010100 | 0010000  |
-| Subnet Address (Decimal) | 193      | 16       | 20       | 32       |
+| Network ID (Binary)      | 11000001 | 00010000 | 00010100 | 0010000  |
+| Network ID (Decimal)     | 193      | 16       | 20       | 32       |
+
+So out Network ID is 193.16.20.32
 
 #### Find the number of hosts
 
@@ -51,25 +49,16 @@ Number of Hosts = 2^<sup>n</sup> - 2
 
 Where **n** = number of host bits minus two
 
-> Note
 > number of host bits - 2
 
 Counting the number of host's bits (0's) in the subnet mask binary starting from the right, which has a total of **3**
 
 Number of hosts = 2^<sup>3</sup> - 2
 
-> Note
 > 8 - 2 = 6
 
 #### Calculate the range IP Address
 
 We can now calculate the range of IP Addresses and the Broadcast. Bear in mind that the First & Last IP Address is reserved for the Network and Broadcast
 
-> Note
-> **Given IP:** 193.16.20.35/29
-> **Network IP:** 193.16.20.32
-> **Number of Hosts:** 6
-> **Range of IP Addresses:** 193.16.20.33 - 193.16.20.38
-> **- min range of IP's** = 193.16.20.33
-> **- max range of IP's** = 193.16.20.38
-> **Broadcast IP: 193.16.20.39** -->
+> **Given IP:** 193.16.20.35/29 <br> > **Network IP:** 193.16.20.32 <br> > **Number of Hosts:** 6 <br> > **Range of IP Addresses:** 193.16.20.33 - 193.16.20.38 <br> > **- min range of IP's** = 193.16.20.33 <br> > **- max range of IP's** = 193.16.20.38 <br> > **Broadcast IP: 193.16.20.39** -->
