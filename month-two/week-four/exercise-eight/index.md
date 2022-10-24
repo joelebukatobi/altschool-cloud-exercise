@@ -1,7 +1,5 @@
 ## Month Two
 
----
-
 ### Week Four / Exercise Eight
 
 In week four we talked about setting up environments using ansible. What is ansible?

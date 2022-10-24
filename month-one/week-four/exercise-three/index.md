@@ -1,4 +1,6 @@
-### Exercise THree
+## Month Two
+
+### Exercise Three
 
 In week four we learn about linux groups and users. We also talked SSH
 

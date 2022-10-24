@@ -1,7 +1,5 @@
 ## Month Two
 
----
-
 ### Week Five / Exercise Nine
 
 In week five we talked about Networking and its many abstracts including IP Addressing.
